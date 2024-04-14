@@ -19,7 +19,7 @@ python -m pip install -r requirements.txt
    ```
    huggingface-cli login
    ```
-4. Proceed to https://huggingface.co/maidalun1020/bce-embedding-base_v1/ and agree to the rules.
+4. Proceed to https://huggingface.co/maidalun1020/bce-embedding-base_v1/, then select "agree and access respository".
 
 ## Running program
 #### Case 1: Provide query sentence directly from command line
