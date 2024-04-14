@@ -125,7 +125,7 @@ if __name__ == "__main__":
 
     model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
     
-    all_article_info = scrape_ithome_news(opt.num_articles) # a dict that contains URL, titles and content
+    all_article_info = scrape_ithome_news(opt.num_articles) # return a dict that contains URL, titles and content
     all_document = all_article_info['Content']   
 
     print('Start converting article contents into embedding...')
@@ -159,4 +159,4 @@ if __name__ == "__main__":
             user_input = input("\nPlease enter your query sentence (enter 'exit' if you want to terminate the program): ")
         
         print('Program terminating...')
-          
+                
