@@ -27,11 +27,13 @@ python -m pip install -r requirements.txt
 #### Case 1: Provide query sentence directly from command line
  ```
  python3 search.py --query-sentence [MY QUERY SENTENCE] --limit [LIMIT NUM OF DOCS RETURNED] --num_articles [NUM OF DOCS PARSED FROM ITHOME]
+ # Example: python3 search.py --query-sentence 資安問題 --limit 3 --num_articles 30
  ```
 
 #### Case 2: Provide query sentence using keyboard input after executing the program (allowing multiple query inputs)
  ```
  python3 search.py --limit [LIMIT NUM OF DOCS RETURNED] --num_articles [NUM OF DOCS PARSED FROM ITHOME]
+ # Example: python3 search.py --limit 3 --num_articles 30
  ```
 
 ## Extra 
