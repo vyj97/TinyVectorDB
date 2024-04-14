@@ -112,8 +112,8 @@ class TinyVectorDB:
                 print('Similarity: {}'.format(brute_result[1]))
                 print(brute_result[0])
                 
-        print('\nKDTree search! Elapsed time: ', execution_time_kd + self.building_time_kd, 'seconds')  
-        print('Greedy search! Elapsed time: ', execution_time_brute, 'seconds')                
+        print('\nKD-Tree search! Elapsed time: ', execution_time_kd + self.building_time_kd, 'seconds')  
+        print('Brute-force search! Elapsed time: ', execution_time_brute, 'seconds')                
         print('Efficieny has been improved by ', ((execution_time_brute-execution_time_kd) / execution_time_brute)*100, '%\n')  
 
         return kd_search_result, brute_search_result
