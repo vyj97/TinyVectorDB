@@ -2,7 +2,7 @@
 A simple search engine for ITHome news.
 
 
-## TL;DR quickstart
+## Environment setup
 
 To setup a conda environment and install related dependencies.
 ```
@@ -11,7 +11,7 @@ conda activate bce
 python -m pip install -r requirements.txt
 ```
 
-## Some Huggingface user guide to use bce-embedding-base model
+## Some user guide to use bce-embedding-base model in Huggingface
 
 1. Login to your [Huggingface](https://huggingface.co/) account.
 2. Proceed to https://huggingface.co/settings/tokens and generate a new token (token type=Read)
