@@ -22,12 +22,17 @@ python -m pip install -r requirements.txt
 4. Proceed to https://huggingface.co/maidalun1020/bce-embedding-base_v1/ and agree to the rules.
 
 ## Running program
-### Case I: Provide query sentence directly from command line
+#### Case 1: Provide query sentence directly from command line
  ```
  python3 search.py --query-sentence [MY QUERY SENTENCE] --limit [LIMIT NUM OF DOCS RETURNED] --num_articles [NUM OF DOCS PARSED FROM ITHOME]
  ```
 
-### CASE II: Provide query sentence using keyboard input after executing the program
+#### Case 2: Provide query sentence using keyboard input after executing the program (allowing multiple query inputs)
  ```
  python3 search.py --limit [LIMIT NUM OF DOCS RETURNED] --num_articles [NUM OF DOCS PARSED FROM ITHOME]
  ```
+
+## Extra notes
+#### 當我們的使用情境不止需要 parse 30 篇文章時，要如何快速的 scale up 整個 parsing process？
+
+#### 當我們的 DB 當中有上千萬上億筆 documents 時，要如何更近一步提升 vector database 的搜索效率？
