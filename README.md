@@ -9,6 +9,8 @@ To setup a conda environment and install related dependencies.
 conda create --name bce python=3.10 -y
 conda activate bce
 python -m pip install -r requirements.txt
+git clone https://github.com/vyj97/TinyVectorDB/
+cd TinyVectorDB
 ```
 
 ## Some user guide to use bce-embedding-base model in Huggingface
